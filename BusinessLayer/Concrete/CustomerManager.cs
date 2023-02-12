@@ -18,7 +18,7 @@ namespace BusinessLayer.Concrete
             _customerDal = customerDal;
         }
 
-        public List<Customer> GetList()
+        public List<Customer> TGetList()
         {
             return _customerDal.GetList();
         }
